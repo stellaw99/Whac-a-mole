@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 1em;
+    font-family: noto, sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: whitesmoke;
+    color: midnightblue;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 600px;
+    height: 600px;
+
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid 1px rgb(202, 202, 202);
+}
+
+.mole {
+    background-color: aquamarine;
+    border: solid 1px rgb(202, 202, 202);
+}
